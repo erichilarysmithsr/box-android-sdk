@@ -4,6 +4,7 @@
     "@datafire/mongodb": "2.1.1",
     "@datafire/fileserver": "1.0.1",
     "@datafire/smtp": "3.0.1",
-    "@datafire/http": "2.1.0"
+    "@datafire/http": "2.1.0",
+    "@datafire/mandrillapp": "5.0.0"
   }
 }
