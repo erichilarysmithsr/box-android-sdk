@@ -135,6 +135,10 @@ paths:
     get:
       action: circleci/projects.get
       accounts: {}
+  /paths7:
+    get:
+      action: postmark/server.get
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
