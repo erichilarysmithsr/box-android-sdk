@@ -88,6 +88,10 @@ paths:
     get:
       action: smtp/send
       accounts: {}
+  /paths4:
+    get:
+      action: http/request
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
