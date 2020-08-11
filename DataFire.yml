@@ -163,3 +163,6 @@ tests:
     input:
       body:
         description: '""'
+  test6:
+    action: circleci/projects.get
+    accounts: {}
