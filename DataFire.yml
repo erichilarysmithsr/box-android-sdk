@@ -151,6 +151,10 @@ paths:
     get:
       action: postmark/server.get
       accounts: {}
+  /paths8:
+    get:
+      action: imap/fetch
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
