@@ -107,6 +107,17 @@ tasks:
       input:
         Content-Type: '""'
         Accept: '""'
+  task8:
+    schedule: cron(5 8 ? * 0)
+    action: imap/fetch
+    accounts: {}
+    monitor:
+      action: imap/fetch
+      accounts: {}
+      trackBy: attributes
+      input:
+        messages:
+          - '""'
 paths:
   /paths0:
     get:
