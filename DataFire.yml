@@ -93,3 +93,14 @@ tests:
     accounts: {}
     input:
       filename: '""'
+  test3:
+    action: smtp/send
+    accounts: {}
+    input:
+      to:
+        - '""'
+      cc: []
+      bcc: []
+      attachments: []
+      envelope: {}
+      from: '""'
