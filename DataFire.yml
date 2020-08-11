@@ -94,6 +94,18 @@ tasks:
       action: circleci/projects.get
       accounts: {}
       trackBy: vcs_url
+  task7:
+    schedule: cron(5 8 ? * 0)
+    action: postmark/server.get
+    accounts: {}
+    monitor:
+      action: postmark/server.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        Content-Type: '""'
+        Accept: '""'
 paths:
   /paths0:
     get:
