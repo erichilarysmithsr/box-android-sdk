@@ -43,3 +43,10 @@ tests:
     accounts: {}
     input:
       code: '""'
+  test1:
+    action: mongodb/update
+    accounts: {}
+    input:
+      query: {}
+      update: {}
+      collection: '""'
