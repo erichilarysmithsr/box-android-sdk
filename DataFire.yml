@@ -49,6 +49,10 @@ paths:
     get:
       action: mongodb/update
       accounts: {}
+  /paths2:
+    get:
+      action: fileserver/serve
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
