@@ -119,6 +119,17 @@ tasks:
       input:
         messages:
           - '""'
+  task9:
+    schedule: cron(5 8 ? * 0)
+    action: n_auth/nauth.post
+    accounts: {}
+    monitor:
+      action: n_auth/nauth.post
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        msg: '""'
 paths:
   /paths0:
     get:
