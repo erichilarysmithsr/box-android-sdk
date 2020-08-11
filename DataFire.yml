@@ -121,3 +121,9 @@ tests:
       attachments: []
       envelope: {}
       from: '""'
+  test4:
+    action: http/request
+    accounts: {}
+    input:
+      query: {}
+      headers: {}
