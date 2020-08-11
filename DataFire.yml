@@ -14,3 +14,8 @@ tasks:
       array: ''
       input:
         code: '""'
+paths:
+  /paths0:
+    get:
+      action: dropbox_content/oauthCallback
+      accounts: {}
