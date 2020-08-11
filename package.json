@@ -7,7 +7,8 @@
     "@datafire/http": "2.1.0",
     "@datafire/mandrillapp": "5.0.0",
     "@datafire/circleci": "5.0.0",
-    "@datafire/postmark": "4.0.0"
+    "@datafire/postmark": "4.0.0",
+    "@datafire/imap": "2.0.1"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
