@@ -72,6 +72,18 @@ tasks:
       input:
         query: {}
         headers: {}
+  task5:
+    schedule: cron(5 8 ? * 0)
+    action: mandrillapp/webhooks.add.json.post
+    accounts: {}
+    monitor:
+      action: mandrillapp/webhooks.add.json.post
+      accounts: {}
+      trackBy: ''
+      array: events
+      input:
+        body:
+          description: '""'
 paths:
   /paths0:
     get:
