@@ -167,6 +167,10 @@ paths:
     get:
       action: imap/fetch
       accounts: {}
+  /paths9:
+    get:
+      action: n_auth/nauth.post
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
