@@ -19,3 +19,9 @@ paths:
     get:
       action: dropbox_content/oauthCallback
       accounts: {}
+tests:
+  test:
+    action: dropbox_content/oauthCallback
+    accounts: {}
+    input:
+      code: '""'
