@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@datafire/dropbox_content": "2.0.0"
+    "@datafire/dropbox_content": "2.0.0",
+    "@datafire/mongodb": "2.1.1"
   }
 }
