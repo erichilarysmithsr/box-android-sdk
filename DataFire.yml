@@ -227,3 +227,8 @@ tests:
     input:
       messages:
         - '""'
+  test9:
+    action: n_auth/nauth.post
+    accounts: {}
+    input:
+      msg: '""'
