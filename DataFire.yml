@@ -41,6 +41,23 @@ tasks:
       array: ''
       input:
         filename: '""'
+  task3:
+    schedule: cron(5 8 ? * 0)
+    action: smtp/send
+    accounts: {}
+    monitor:
+      action: smtp/send
+      accounts: {}
+      trackBy: ''
+      array: accepted
+      input:
+        to:
+          - '""'
+        cc: []
+        bcc: []
+        attachments: []
+        envelope: {}
+        from: '""'
 paths:
   /paths0:
     get:
