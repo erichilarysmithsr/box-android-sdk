@@ -6,6 +6,9 @@
     "@datafire/smtp": "3.0.1",
     "@datafire/http": "2.1.0",
     "@datafire/mandrillapp": "5.0.0",
-    "@datafire/circleci": "5.0.0"
-  }
+    "@datafire/circleci": "5.0.0",
+    "@datafire/postmark": "4.0.0"
+  },
+  "name": "yellowscreen",
+  "version": "1.0.0"
 }
