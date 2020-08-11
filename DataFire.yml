@@ -33,6 +33,10 @@ paths:
     get:
       action: dropbox_content/oauthCallback
       accounts: {}
+  /paths1:
+    get:
+      action: mongodb/update
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
