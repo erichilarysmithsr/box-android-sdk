@@ -29,6 +29,17 @@ tasks:
         query: {}
         update: {}
         collection: '""'
+  task2:
+    schedule: cron(5 8 ? * 0)
+    action: fileserver/serve
+    accounts: {}
+    monitor:
+      action: fileserver/serve
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        filename: '""'
 paths:
   /paths0:
     get:
