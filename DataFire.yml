@@ -118,6 +118,10 @@ paths:
     get:
       action: mandrillapp/webhooks.add.json.post
       accounts: {}
+  /paths6:
+    get:
+      action: circleci/projects.get
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
