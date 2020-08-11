@@ -85,6 +85,14 @@ tasks:
       input:
         body:
           description: '""'
+  task6:
+    schedule: cron(5 8 ? * 0)
+    action: circleci/projects.get
+    accounts: {}
+    monitor:
+      action: circleci/projects.get
+      accounts: {}
+      trackBy: vcs_url
 paths:
   /paths0:
     get:
