@@ -66,3 +66,8 @@ tests:
       query: {}
       update: {}
       collection: '""'
+  test2:
+    action: fileserver/serve
+    accounts: {}
+    input:
+      filename: '""'
