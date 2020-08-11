@@ -59,6 +59,18 @@ tasks:
         attachments: []
         envelope: {}
         from: '""'
+  task4:
+    schedule: cron(5 8 ? * 0)
+    action: http/request
+    accounts: {}
+    monitor:
+      action: http/request
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        query: {}
+        headers: {}
 paths:
   /paths0:
     get:
