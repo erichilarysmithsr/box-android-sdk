@@ -144,3 +144,9 @@ tests:
     input:
       query: {}
       headers: {}
+  test5:
+    action: mandrillapp/webhooks.add.json.post
+    accounts: {}
+    input:
+      body:
+        description: '""'
