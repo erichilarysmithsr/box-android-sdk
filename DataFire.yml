@@ -105,6 +105,10 @@ paths:
     get:
       action: http/request
       accounts: {}
+  /paths5:
+    get:
+      action: mandrillapp/webhooks.add.json.post
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
