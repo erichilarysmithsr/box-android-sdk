@@ -183,3 +183,9 @@ tests:
   test6:
     action: circleci/projects.get
     accounts: {}
+  test7:
+    action: postmark/server.get
+    accounts: {}
+    input:
+      Content-Type: '""'
+      Accept: '""'
