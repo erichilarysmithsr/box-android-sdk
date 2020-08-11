@@ -2,3 +2,15 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: dropbox_content/oauthCallback
+    accounts: {}
+    monitor:
+      action: dropbox_content/oauthCallback
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
