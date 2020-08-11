@@ -71,6 +71,10 @@ paths:
     get:
       action: fileserver/serve
       accounts: {}
+  /paths3:
+    get:
+      action: smtp/send
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
