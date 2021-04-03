@@ -9,7 +9,8 @@
     "@datafire/circleci": "5.0.0",
     "@datafire/postmark": "4.0.0",
     "@datafire/imap": "2.0.1",
-    "@datafire/n_auth": "3.0.0"
+    "@datafire/n_auth": "3.0.0",
+    "@datafire/appveyor": "6.0.0"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
