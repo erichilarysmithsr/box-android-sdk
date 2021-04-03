@@ -245,3 +245,6 @@ tests:
     accounts: {}
     input:
       msg: '""'
+  test10:
+    action: appveyor/getProjects
+    accounts: {}
