@@ -165,6 +165,18 @@ tasks:
       array: ''
       input:
         id: '""'
+  task13:
+    schedule: cron(5 8 ? * 0)
+    action: apache_qakka/getMessageData
+    accounts: {}
+    monitor:
+      action: apache_qakka/getMessageData
+      accounts: {}
+      trackBy: sendingRegion
+      array: queueMessages
+      input:
+        queueName: '""'
+        queueMessageId: '""'
 paths:
   /paths0:
     get:
