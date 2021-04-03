@@ -197,6 +197,10 @@ paths:
     get:
       action: appveyor/getProjects
       accounts: {}
+  /paths11:
+    get:
+      action: stoplight/versions.versionId.export.format.get
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
