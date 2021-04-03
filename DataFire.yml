@@ -140,6 +140,18 @@ tasks:
       action: appveyor/getProjects
       accounts: {}
       trackBy: ''
+  task11:
+    schedule: cron(5 8 ? * 0)
+    action: stoplight/versions.versionId.export.format.get
+    accounts: {}
+    monitor:
+      action: stoplight/versions.versionId.export.format.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        versionId: '""'
+        format: '""'
 paths:
   /paths0:
     get:
