@@ -153,6 +153,17 @@ tasks:
       input:
         versionId: '""'
         format: '""'
+  task12:
+    schedule: cron(5 8 ? * 0)
+    action: extendsclass_json_storage/bin.id.get
+    accounts: {}
+    monitor:
+      action: extendsclass_json_storage/bin.id.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        id: '""'
 paths:
   /paths0:
     get:
