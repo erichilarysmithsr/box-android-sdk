@@ -11,7 +11,8 @@
     "@datafire/imap": "2.0.1",
     "@datafire/n_auth": "3.0.0",
     "@datafire/appveyor": "6.0.0",
-    "@datafire/stoplight": "4.0.0"
+    "@datafire/stoplight": "4.0.0",
+    "@datafire/extendsclass_json_storage": "3.0.0"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
