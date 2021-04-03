@@ -131,6 +131,14 @@ tasks:
       array: ''
       input:
         msg: '""'
+  task10:
+    schedule: cron(5 8 ? * 0)
+    action: appveyor/getProjects
+    accounts: {}
+    monitor:
+      action: appveyor/getProjects
+      accounts: {}
+      trackBy: ''
 paths:
   /paths0:
     get:
