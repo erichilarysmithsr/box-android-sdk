@@ -309,3 +309,9 @@ tests:
     accounts: {}
     input:
       id: '""'
+  test13:
+    action: apache_qakka/getMessageData
+    accounts: {}
+    input:
+      queueName: '""'
+      queueMessageId: '""'
