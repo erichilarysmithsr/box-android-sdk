@@ -287,3 +287,8 @@ tests:
     input:
       versionId: '""'
       format: '""'
+  test12:
+    action: extendsclass_json_storage/bin.id.get
+    accounts: {}
+    input:
+      id: '""'
