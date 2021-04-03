@@ -265,3 +265,9 @@ tests:
   test10:
     action: appveyor/getProjects
     accounts: {}
+  test11:
+    action: stoplight/versions.versionId.export.format.get
+    accounts: {}
+    input:
+      versionId: '""'
+      format: '""'
