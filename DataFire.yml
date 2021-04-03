@@ -180,6 +180,10 @@ paths:
     get:
       action: n_auth/nauth.post
       accounts: {}
+  /paths10:
+    get:
+      action: appveyor/getProjects
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
