@@ -213,6 +213,10 @@ paths:
     get:
       action: stoplight/versions.versionId.export.format.get
       accounts: {}
+  /paths12:
+    get:
+      action: extendsclass_json_storage/bin.id.get
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
