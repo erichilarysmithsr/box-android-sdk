@@ -178,6 +178,20 @@ tasks:
       input:
         queueName: '""'
         queueMessageId: '""'
+  task14:
+    schedule: cron(5 8 ? * 0)
+    action: box_authorization/authorize
+    accounts: {}
+    monitor:
+      action: box_authorization/authorize
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        response_type: '""'
+        client_id: '""'
+        redirect_uri: '""'
+        state: '""'
 paths:
   /paths0:
     get:
