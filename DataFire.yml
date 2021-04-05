@@ -15,6 +15,7 @@ actions:
   action11: ./actions/action11.js
   action12: ./actions/action12.js
   action13: ./actions/action13.js
+  action14: ./actions/action14.js
 tasks:
   task:
     schedule: cron(5 8 ? * 0)
