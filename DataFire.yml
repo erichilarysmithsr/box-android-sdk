@@ -281,6 +281,10 @@ paths:
     get:
       action: swagger_generator/getServerOptions
       accounts: {}
+  /paths16:
+    get:
+      action: github/authorizations.authorization_id.get
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
