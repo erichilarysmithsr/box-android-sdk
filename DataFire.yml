@@ -193,6 +193,17 @@ tasks:
         client_id: '""'
         redirect_uri: '""'
         state: '""'
+  task15:
+    schedule: cron(5 8 ? * 0)
+    action: github/authorizations.authorization_id.get
+    accounts: {}
+    monitor:
+      action: github/authorizations.authorization_id.get
+      accounts: {}
+      trackBy: ''
+      array: scopes
+      input:
+        authorization_id: 32
 paths:
   /paths0:
     get:
