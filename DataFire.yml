@@ -370,3 +370,8 @@ tests:
       client_id: '""'
       redirect_uri: '""'
       state: '""'
+  test15:
+    action: swagger_generator/getServerOptions
+    accounts: {}
+    input:
+      framework: '""'
