@@ -15,7 +15,8 @@
     "@datafire/extendsclass_json_storage": "3.0.0",
     "@datafire/apache_qakka": "4.0.0",
     "@datafire/box_authorization": "6.0.0",
-    "@datafire/github": "7.0.0"
+    "@datafire/github": "7.0.0",
+    "@datafire/swagger_generator": "6.0.0"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
