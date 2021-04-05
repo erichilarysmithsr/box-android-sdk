@@ -277,6 +277,10 @@ paths:
     get:
       action: box_authorization/authorize
       accounts: {}
+  /paths15:
+    get:
+      action: swagger_generator/getServerOptions
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
