@@ -379,3 +379,8 @@ tests:
     accounts: {}
     input:
       framework: '""'
+  test16:
+    action: github/authorizations.authorization_id.get
+    accounts: {}
+    input:
+      authorization_id: 32
