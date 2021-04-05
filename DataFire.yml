@@ -205,6 +205,17 @@ tasks:
       array: scopes
       input:
         authorization_id: 32
+  task16:
+    schedule: cron(5 8 ? * 0)
+    action: swagger_generator/getServerOptions
+    accounts: {}
+    monitor:
+      action: swagger_generator/getServerOptions
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        framework: '""'
 paths:
   /paths0:
     get:
