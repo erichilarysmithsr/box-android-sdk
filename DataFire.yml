@@ -249,6 +249,10 @@ paths:
     get:
       action: apache_qakka/getMessageData
       accounts: {}
+  /paths14:
+    get:
+      action: box_authorization/authorize
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
