@@ -312,6 +312,10 @@ paths:
     get:
       action: rubygems/api_key.format.get
       accounts: {}
+  /paths18:
+    get:
+      action: configcat/v1.products.productId.environments.get
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
