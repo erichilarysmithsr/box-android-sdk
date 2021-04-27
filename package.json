@@ -17,7 +17,8 @@
     "@datafire/box_authorization": "6.0.0",
     "@datafire/github": "7.0.0",
     "@datafire/swagger_generator": "6.0.0",
-    "@datafire/rubygems": "5.0.0"
+    "@datafire/rubygems": "5.0.0",
+    "@datafire/configcat": "3.0.0"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
