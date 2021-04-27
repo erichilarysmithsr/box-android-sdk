@@ -420,3 +420,8 @@ tests:
     accounts: {}
     input:
       format: '""'
+  test18:
+    action: configcat/v1.products.productId.environments.get
+    accounts: {}
+    input:
+      productId: '""'
