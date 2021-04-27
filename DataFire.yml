@@ -228,6 +228,17 @@ tasks:
       array: ''
       input:
         format: '""'
+  task18:
+    schedule: cron(5 8 ? * 0)
+    action: configcat/v1.products.productId.environments.get
+    accounts: {}
+    monitor:
+      action: configcat/v1.environments.environmentId.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        environmentId: '""'
 paths:
   /paths0:
     get:
