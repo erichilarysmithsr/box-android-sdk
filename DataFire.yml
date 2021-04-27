@@ -217,6 +217,17 @@ tasks:
       array: ''
       input:
         framework: '""'
+  task17:
+    schedule: cron(5 8 ? * 0)
+    action: rubygems/api_key.format.get
+    accounts: {}
+    monitor:
+      action: rubygems/api_key.format.get
+      accounts: {}
+      trackBy: ''
+      array: ''
+      input:
+        format: '""'
 paths:
   /paths0:
     get:
