@@ -400,3 +400,8 @@ tests:
     accounts: {}
     input:
       authorization_id: 32
+  test17:
+    action: rubygems/api_key.format.get
+    accounts: {}
+    input:
+      format: '""'
