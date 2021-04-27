@@ -297,6 +297,10 @@ paths:
     get:
       action: github/authorizations.authorization_id.get
       accounts: {}
+  /paths17:
+    get:
+      action: rubygems/api_key.format.get
+      accounts: {}
 tests:
   test:
     action: dropbox_content/oauthCallback
